@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title>Hello, world!</title>
+
+    <link rel="stylesheet" href="./animation/dist/aos.css">
+  </head>
+  <body>
+
+    <!-- navbar section start here  -->
+    
+    <section class="container-fluid  bg-images">
+        <nav class="navbar navbar-expand-lg bg-color navbar-light" >
+            <div class="container">
+                <div class="setNameAnimation mx-auto">
+                    <a class="navbar-brand"  data-text="Imran Shah..." href="#">Imran Shah...</a>
+                </div>
+                
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item" data-aos="fade-right" data-aos-delay="300">
+                    <a class="nav-link bdclr text-white active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item text-white" data-aos="fade-right" data-aos-delay="300">
+                    <a class="nav-link bdclr text-white" href="#aboutMe">About</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown" data-aos="fade-right" data-aos-delay="300">
+                    <a class="nav-link sr text-white dropdown-toggle" href="#service" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    
+                    <ul class="dropdown-menu bg-color text-center" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item bdclr  text-white" href="#service">Web Devlopment</a></li>
+                      <li><a class="dropdown-item bdclr text-white" href="#service">Web Design</a></li>
+                      <li><hr class="dropdown-divider  text-white"></li>
+                      <li><a class="dropdown-item bdclr text-white" href="#service">Front-end Web Dev</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item" data-aos="fade-right" data-aos-delay="300">
+                    <a class="nav-link bdclr text-white" href="#ourTeam">Our Team</a>
+                  </li>
+                  <li class="nav-item" data-aos="fade-right" data-aos-delay="300">
+                    <a class="nav-link bdclr text-white" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+
+          <div class="typer_div  text-center align-items-center justify-content-center flex-column" data-aos="zoom-in-left" data-aos-delay="400">
+            <div class="middle">
+              <span class="text-type-animation text-white">
+                  <strong>ITS ALL ABOUT</strong><br />
+
+                  <span class="txt-rotate" data-period="2000"
+                      data-rotate='[ "Freelancer..", "Web Developer..", "A Programmer.."]'>
+        
+                  </span>
+              </span><br /><br />
+        
+              <!-- <button class="bttn-unite bttn-lg bttn-success bttn-no-outline" data-toggle="modal" data-target="#myModal">Register Now</button> -->
+          </div>
+
+        </div>
+    </section>
+    <!-- navbar section end here  -->
+
+
+    <!-- about us section start here  -->
+    <section class=" my-5 mx-auto" id="aboutMe">
+        <div class="container" style="overflow-x: hidden">
+              <div class="mx-auto text-center my-5 headtext">
+                    <h1 data-aos="fade-up" data-aos-offset="300" class=" fw-bolder">About <span class="txt-green">Me</span> </h1>
+                    <hr  class="w-25  mx-auto" />
+              </div>
+
+              <div class="row">
+
+                  <div class="col-10 col-md-6 col-lg-6 col-xxl-6 mx-auto text-setMid" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                  
+                    >
+                        <h3 class="">What do you <span class="txt-green">want to know ?</span></h3>
+                        <p class="pt-4 ">
+                          User our powerful mobile-first flexbox grid to build layouts of all shapes and sizes 
+                          thanks to a  twelve column system, six default responsive tiers, Sass
+                          variables and mixins, and dozens of predefined classes 
+                        </p>
+                        <button type="button" class="btn btn-light mb-5">More about me</button>
+                        <!-- accord start here  -->
+
+                        <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                My Hobbies
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> 
+                                    It is shown by default, until the collapse plugin adds the appropriate classes 
+                                    that we use to style each element.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                My Qualification
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, 
+                                        until the collapse plugin adds the appropriate classes that we use to style 
+                                        each element. 
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                My Dreams
+                              </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> 
+                                      It is hidden by default, until the collapse plugin adds the appropriate 
+                                      classes that we use to style each element. 
+                                     
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                  
+                  <div class="col-10 col-md-6 col-lg-6 col-xxl-6 mx-auto my-5 text-end" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./images/s4.jpg" class="img-fluid  img-thumbnail" alt="s4Pic">
+                  </div>
+
+              </div>
+        </div>
+    </section>
+    <!-- about us section end here  -->
+
+
+    <!-- our services section start here  -->
+      <section class="services py-5 bg-light">
+            <div class="container" id="service">
+                <div class="mx-auto text-center my-5 headtext">
+                    <h1 data-aos="fade-up" data-aos-offset="300" class="fw-bolder">Our <span class="txt-green">Services</span> </h1>
+                    <hr  class="w-25  mx-auto" />
+                </div>
+
+                <div class="row">
+
+                  <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
+                          <div class="card">
+                              <div class="card-body">
+                                <span class="p-2 bg-primary text-white rounded">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                      </svg>
+                                </span>
+                                  <h5 class="card-title mt-4">Web Development</h5>
+                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                  <a href="#" class="btn btn-primary">Book now!</a>
+                               </div>
+                           </div>
+
+                  </div>
+  
+                  <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
+                            <div class="card">
+                              <div class="card-body bg-primary text-white">
+                                <span class="p-2 bg-white text-dark rounded">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                                  </svg>
+                                 </span>
+
+                                  <h5 class="card-title mt-4">App Development</h5>
+                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                  <a href="#" class="btn btn-primary">Book now!</a>
+                              </div>
+                          </div>
+                  </div>
+  
+                  <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500">
+                            <div class="card">
+                              <div class="card-body">
+                                <span class="p-2 bg-primary text-white rounded">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                      </svg>
+                                 </span>
+
+                                  <h5 class="card-title mt-4">Graphics Design</h5>
+                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                  <a href="#" class="btn btn-primary">Book now!</a>
+                              </div>
+                          </div>
+                  </div>
+
+                          <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-up"
+                          data-aos-anchor-placement="bottom-bottom">
+                            <div class="card">
+                                <div class="card-body">
+                                  <span class="p-2 bg-primary text-white rounded">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                          <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        </svg>
+                                   </span>
+
+
+                                    <h5 class="card-title mt-4">Web Development</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary">Book now!</a>
+                                </div>
+                            </div>
+
+                         </div>
+
+                    <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
+                              <div class="card">
+                                <div class="card-body bg-primary text-white">
+                                     <span class="p-2 bg-white text-dark rounded">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                                            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                                          </svg>
+                                      </span>
+
+
+                                    <h5 class="card-title mt-4">App Development</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary">Book now!</a>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
+                              <div class="card">
+                                <div class="card-body">
+                                  <span class="p-2 bg-primary text-white rounded">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                                          <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                                          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        </svg>
+                                   </span>
+
+
+                                    <h5 class="card-title mt-4">Graphics Design</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary">Book now!</a>
+                                </div>
+                            </div>
+                    </div>
+
+
+
+                </div>
+                
+            </div>
+      </section>
+
+    <!-- our services section end here  -->
+
+    
+
+    <!-- our team section start here  -->
+      <section class="my-5">
+          <div class="container" id="ourTeam">
+            <div class="mx-auto text-center my-5 headtext">
+              <h1 data-aos="fade-up" data-aos-offset="300" class="fw-bolder">Our <span class="txt-green">Team</span> </h1>
+              <hr  class="w-25  mx-auto" />
+           </div>
+
+
+            <div class="row" style="overflow-x: hidden;">
+                  <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-right"  data-aos-duration="1000" data-aos-offset="300">
+                          <div class="card text-center">
+                                <div class="card-body">
+                                  <img src="./images/s4.jpg" class="img-fluid rounded-circle border border-primary p-2"  alt="">
+                                  <h5 class="card-title mt-2">Imran Shah</h5>
+                                  <p class="card-text mt-4">Front-end Developer</p>
+                                  <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                          </div>
+                  </div>
+
+                  <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="zoom-in"  data-aos-duration="1000" data-aos-offset="300">
+                          <div class="card text-center">
+                                <div class="card-body">
+                                  <img src="./images/s2.jpg" class="img-fluid rounded-circle border border-primary p-2"  alt="">
+                                  <h5 class="card-title mt-2">Noor Ullah Khan</h5>
+                                  <p class="card-text mt-4">Back-end Developer</p>
+                                  <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                          </div>
+                  </div>
+
+                  <div class="col-10 col-md-4 col-lg-4 col-xxl-4 mx-auto mb-4" data-aos="fade-left"  data-aos-duration="1000" data-aos-offset="300">
+                          <div class="card text-center">
+                                <div class="card-body">
+                                  <img src="./images/s3.jpg" class="img-fluid rounded-circle border border-primary p-2"  alt="">
+                                  <h5 class="card-title mt-2">Kristina</h5>
+                                  <p class="card-text mt-4">Graphic Designer</p>
+                                  <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                          </div>
+                  </div>
+            </div>
+
+
+
+          </div>
+
+      </section>
+
+
+    <!-- our team section end here  -->
+    
+
+    <!-- contact section start here  -->
+      <section class="contact pt-5" id="contact">
+          <div class="container">
+                <div class="mx-auto text-center my-5 headtext">
+                  <h1  data-aos="fade-up" data-aos-offset="300" class="fw-bolder">Feel free <span class="txt-green">to Connect</span> </h1>
+                  <hr  class="w-40  mx-auto" />
+                </div>
+
+                <div class="row" style="overflow-x: hidden;">
+                        <div class="col-10 col-xxl-6 col-md-6 col-lg-6 mx-auto" data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="500">
+                          <form class="row g-3">
+                            <div class="col-md-6">
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputPassword4" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-12">
+                              <label for="inputAddress" class="form-label">Address</label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <!-- <div class="col-12">
+                              <label for="inputAddress2" class="form-label">Address 2</label>
+                              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            </div> -->
+                            <div class="col-md-6">
+                              <label for="inputCity" class="form-label">City</label>
+                              <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">State</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+                            <div class="col-md-2">
+                              <label for="inputZip" class="form-label">Zip</label>
+                              <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                  Check me out
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                          </form>
+                        </div>
+
+                        <div class="col-10 col-xxl-6 col-md-6 col-lg-6 mx-auto text-end p-4 mt-2" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="500">
+                                <img src="./images/s6.jpg" class="img-fluid img-thumbnail p-2" alt="">
+                        </div>
+                </div>
+
+          </div>
+      </section>
+
+
+
+    <!-- contact section end here  -->
+
+
+    <!-- footer section start here  -->
+   
+        
+            <div class="container-fluid footer text-center">
+               <span class="text-white ">Developed by Imran Shah</span> 
+            </div>
+    
+
+
+    <!-- footer section end here  -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <script src="./animation/dist/aos.js"></script>
+  
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="./JS/app.js"></script>
+
+  </body>
+</html>
